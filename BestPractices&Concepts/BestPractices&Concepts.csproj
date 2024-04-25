@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DesignPatterns\AbstractFactory\" />
+    <Folder Include="DesignPatterns\AbstractFactory\Contracts\NewFolder\" />
+    <Folder Include="DesignPatterns\AbstractFactory\Entities\Module\" />
+    <Folder Include="DesignPatterns\AbstractFactory\Entities\Protocol\" />
   </ItemGroup>
 
 </Project>
