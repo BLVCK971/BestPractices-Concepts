@@ -3,6 +3,7 @@ using BestPractices_Concepts.BaseConcepts.OOP.Abstraction;
 using BestPractices_Concepts.BaseConcepts.OOP.Encapsulation;
 using BestPractices_Concepts.BaseConcepts.OOP.Inheritance;
 using BestPractices_Concepts.BaseConcepts.OOP.Polymorphism;
+using BestPractices_Concepts.DesignPatterns.AbstractFactory.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Factory;
 using BestPractices_Concepts.DesignPatterns.Factory.Creators;
 
@@ -56,6 +57,8 @@ Client.ClientCode(new EIPCreator());
 Console.WriteLine("");
 
 Client.ClientCode(new ModBusCreator());
+
+Catalogue.mainFunction();
 
 ///// Ajout Entité
 /// Ajout Sercos : IProtocol 

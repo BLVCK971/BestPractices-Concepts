@@ -8,9 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DesignPatterns\AbstractFactory\Contracts\NewFolder\" />
-    <Folder Include="DesignPatterns\AbstractFactory\Entities\Module\" />
-    <Folder Include="DesignPatterns\AbstractFactory\Entities\Protocol\" />
+    <Compile Remove="DesignPatterns\AbstractFactory\Contracts\NewFolder\**" />
+    <Compile Remove="DesignPatterns\AbstractFactory\Entities\Module\**" />
+    <Compile Remove="DesignPatterns\AbstractFactory\Entities\Protocol\**" />
+    <EmbeddedResource Remove="DesignPatterns\AbstractFactory\Contracts\NewFolder\**" />
+    <EmbeddedResource Remove="DesignPatterns\AbstractFactory\Entities\Module\**" />
+    <EmbeddedResource Remove="DesignPatterns\AbstractFactory\Entities\Protocol\**" />
+    <None Remove="DesignPatterns\AbstractFactory\Contracts\NewFolder\**" />
+    <None Remove="DesignPatterns\AbstractFactory\Entities\Module\**" />
+    <None Remove="DesignPatterns\AbstractFactory\Entities\Protocol\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DesignPatterns\AbstractFactory\Entities\Protocols\Sercos\" />
   </ItemGroup>
 
 </Project>
