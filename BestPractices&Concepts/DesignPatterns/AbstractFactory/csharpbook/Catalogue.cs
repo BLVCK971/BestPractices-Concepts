@@ -43,5 +43,14 @@ public static class Catalogue
         {
             scooters[i] = factory.creeScooter("classic", "rouge", 2 + i);
         }
+
+        foreach(Automobile a in autos)
+        {
+            a.afficherCaracteristiques();
+        }
+        foreach (Scooter sc in scooters)
+        {
+            sc.afficherCaracteristiques();
+        }
     }
 }

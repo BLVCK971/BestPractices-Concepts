@@ -6,6 +6,7 @@ using BestPractices_Concepts.BaseConcepts.OOP.Polymorphism;
 using BestPractices_Concepts.DesignPatterns.AbstractFactory.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Factory;
 using BestPractices_Concepts.DesignPatterns.Factory.Creators;
+using BestPractices_Concepts.DesignPatterns.Visitor.csharpbook;
 
 ////////////////// Abstraction
 AbsMotorVehicle vehicle = new RealCar();
@@ -76,3 +77,14 @@ Catalogue.mainFunction();
 
 
 ////////////////// Abstract Factory
+///
+
+
+
+
+//////////////////
+
+
+////////////////// Visitor
+///
+Utilisateur.mainFunction();
