@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BestPractices_Concepts.DesignPatterns.Visitor.csharpbook;
 
-public static class Utilisateur
+public static class UtilisateurVisitor
 {
     public static void mainFunction()
     {

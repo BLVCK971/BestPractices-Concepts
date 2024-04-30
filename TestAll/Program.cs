@@ -7,6 +7,7 @@ using BestPractices_Concepts.DesignPatterns.AbstractFactory.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Builder.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Factory;
 using BestPractices_Concepts.DesignPatterns.Factory.Creators;
+using BestPractices_Concepts.DesignPatterns.Strategy.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Visitor.csharpbook;
 
 ////////////////// Abstraction
@@ -88,9 +89,12 @@ Catalogue.mainFunction();
 
 ////////////////// Visitor
 ///
-Utilisateur.mainFunction();
+UtilisateurVisitor.mainFunction();
 
 ////////////////// Builder
 ///
 ClientVehicule.mainFunction();
 
+////////////////// Strategy
+///
+UtilisateurStrategy.Main();
