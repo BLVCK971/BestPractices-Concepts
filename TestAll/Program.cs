@@ -4,6 +4,7 @@ using BestPractices_Concepts.BaseConcepts.OOP.Encapsulation;
 using BestPractices_Concepts.BaseConcepts.OOP.Inheritance;
 using BestPractices_Concepts.BaseConcepts.OOP.Polymorphism;
 using BestPractices_Concepts.DesignPatterns.AbstractFactory.csharpbook;
+using BestPractices_Concepts.DesignPatterns.Builder.csharpbook;
 using BestPractices_Concepts.DesignPatterns.Factory;
 using BestPractices_Concepts.DesignPatterns.Factory.Creators;
 using BestPractices_Concepts.DesignPatterns.Visitor.csharpbook;
@@ -88,3 +89,8 @@ Catalogue.mainFunction();
 ////////////////// Visitor
 ///
 Utilisateur.mainFunction();
+
+////////////////// Builder
+///
+ClientVehicule.mainFunction();
+
